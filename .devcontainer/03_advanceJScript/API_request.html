@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121;">
+    1 OPEND open() has been called.
+    2 HEADER_RECEIVED  send() has been called, and headers, and status are avaliable
+    3 LOADING Downloading; responseText holds partial data.
+    4 DONE    The operation is complete.
+</body>
+<script>//Data send aur recieve krne ke liye XMLhttpRequest(), ka use krte hai.
+     const requestUrl = 'https://api.github.com/users/Developer-AnkitKumar'
+     const xhr = new XMLHttpRequest();
+     xhr.open('GET',requestUrl)//open ko call kiya but open nhi honga
+     xhr.send()
+</script>
+</html>
