@@ -1,4 +1,4 @@
-// while loop condition
+// while loop condition....
 
 let index = 0
 while (index <= 10) {
@@ -16,10 +16,14 @@ while (arr < countArr.length) {
     arr += 1
 }
 
+// do While Loop.......
+
 let score = 1
 do {
-    console.log(`score is ${score}`);
+    // console.log(`score is ${score}`);
     // score += 1
     score++;  
     
 } while (score <= 10);
+
+
