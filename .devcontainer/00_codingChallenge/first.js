@@ -12,7 +12,7 @@
 // console.log(1 + "2" + "3");
 // console.log("1" + 2 + 3);
 
-console.log("" + "");
+// console.log("" + "");
 
 let myVariable = 'Bomb'
 myVariable = 'ANkit kumar'
@@ -43,5 +43,22 @@ myVar = "Kavita Pal"
 // MY_OBJECT.key = "otherValue";
 // console.log(MY_OBJECT);
 
+if (0.1 + 0.2 == 0.3) { // float value, then consider the value in Form of Binary.
+// if (1 + 2 == 3) {
+    // console.log('true');// int value
+    
+}else{
+    // console.log('false');
+    
+}
+
+if ((3 > 2) > 1){ // True(1) > 1
+// if ((3 > 2) == 1){ // True(1) == 1
+    // console.log('true');
+    
+}else{
+    // console.log('false');
+    
+}
 
 
