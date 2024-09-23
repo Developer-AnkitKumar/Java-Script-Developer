@@ -1,4 +1,4 @@
-# Project 2, with BMI Calculater 
+# Project -2 with BMI Calculater 
 
 ```javaScript
 document.querySelector('form')
@@ -30,17 +30,18 @@ form.addEventListener('submit', function(e){
 # Project -2 Soluction(Digital clock)
 
 ```javaScript
-const clock = document.getElementById('clock')
-//document.querySelector('#clock')
+const clock = document.getElementById('clock');
 
 //let date = new date()//define the date
 //console.log(date.toLocaleTimeString());//extract the time
 
-setInterval(function(){    //jb tk mai chahu tb tk time ko chlau
-    let date = new Date();
+setInterval(function () {
+  let date = new Date();
+  // console.log(date.toLocaleTimeString())
 
-    clock.innerHTML = date.toLocalTimeString();
-}, 1000) // 1000 it mins 1sec tk start
+  clock.innerHTML = date.toLocaleTimeString();
+}, 1000);
+
 
 ```
 ## Project-3 Soluction(Guess a Number)
