@@ -15,7 +15,7 @@
 // console.log("" + "");
 
 let myVariable = 'Bomb'
-myVariable = 'ANkit kumar'
+myVariable = 'Ankit kumar'
 myVar = "Kavita Pal"
 
 // console.log(myVariable);
